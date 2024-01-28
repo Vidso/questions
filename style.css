@@ -1,0 +1,161 @@
+/* CSS for Buttons */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: url('default.png');
+    background-size: cover;
+    color: #ffffff; /* Black text color */
+    font-weight: bold;
+    background-color: transparent; /* Transparent background */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background color on hover */
+}
+
+/* Body Styles */
+body {
+    font-family: 'radionewsman', Arial, sans-serif; color: #ffffff /* Use your custom font with fallbacks */
+    font-size: large;
+    background-color:#333333 /* Brown background color */
+    
+}
+
+/* Large Black Rectangular Box Styles */
+.black-box {
+    background-color:#000000; /* Black background */
+    color: #e6e6e6; /* Green text color */
+    text-align: center;
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow */
+    margin: 0 auto; /* Center the box horizontally */
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin-top: 100px;
+    font-family: 'radionewsman', Arial, sans-serif; /* Use your custom font with fallbacks */
+    font-size: medium;
+
+}
+
+/* Box Content (Text and GIF) Styles */
+.box-content img {
+    max-width: 100%;
+}
+
+/* @font-face Rule to Load Your Custom Font */
+@font-face {
+    font-family: 'radionewsman'; /* Give your font a name */
+    src: url('RadioNewsman.woff') format('woff2'), /* WOFF2 format */
+    font-weight; normal: /* Or specify font weights as needed */
+    font-style; normal: /* Or specify font styles as needed */
+}
+
+@font-face {
+    font-family: 'synkopy';
+    src: url('Synkopy-Regular.woff') format('woff2'); /* WOFF format */
+    font-weight: normal;
+    font-style: normal; /* Or specify font styles as needed */
+}
+/* Header Styles with Custom Font */
+header {
+    /* Add any other header styles here */
+}
+
+/* Apply the Custom Font to the Header Text */
+header h3,
+
+.Logo1 {
+    display: flex;
+    margin-top: 30px;
+    max-height: 200px;
+    max-width: 30%; /* Make the logo responsive to its container */
+    height: auto; /* Maintain the aspect ratio of the logo */
+    margin-right: 5px; /* Add margin to separate the logo from the header text */
+    margin-left: 70px;
+    
+}
+
+ 
+/* Navigation Styles */
+.navigation {
+    list-style-type: none;
+    padding: auto;
+    display: flex;
+    vertical-align: auto;
+    /* Adjust alignment as needed */
+}
+
+.navigation li {
+    margin: 10px;
+    margin-right: 30px; /* Adjust the right margin to control spacing between buttons */
+    
+
+}
+
+/* Style the last button to have no right margin to prevent extra spacing */
+.navigation li:last-child {
+    margin-right: 0;
+}
+
+    .navigation li:first-child {
+        margin-left: 50px;
+        vertical-align: auto;
+        align-items: top;
+    }
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ffffff; /* Transparent background with grey tint */
+    color: #000000; /* Black text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    margin-top: auto;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background color on hover */
+}
+
+/* Logo Styles */
+.logo {
+    max-width: 8%; /* Make the logo responsive to its container */
+    height: auto; /* Maintain the aspect ratio of the logo */
+    margin-right: 5px; /* Add margin to separate the logo from the header text */
+}
+
+
+/* Style the product images container */
+.product-images {
+    display: flex; /* Display images in a row */
+    justify-content: 3px; /* Space images evenly */
+    align-items: center; /* Center images vertically */
+    margin-top: 20px; /* Adjust margin as needed */
+    margin-left: 60px;
+}
+
+/* Style individual product images */
+.product-images img {
+    max-width: 100px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 170px; /* Add space between images */
+    margin-top: 100px;
+    scale: 200%;
+}
+header h2,
+.products{
+    margin-left: 90px;
+    color: #e6e6e6;
+    margin-top: auto;
+}
+footer,
+.footer{
+    margin-top: 1000px;
+}
